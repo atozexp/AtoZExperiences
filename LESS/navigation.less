@@ -1,0 +1,40 @@
+.nav-container {
+    display: flex;
+    justify-content: center;
+    
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+        width: 100%;
+        max-width: 800px;
+
+        @media @mobile {
+            flex-direction: column;
+        }
+
+        nav {
+            @media @mobile {
+                margin-top: 10px;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 15px;
+            color: #212529;
+            margin: 0px 10px;
+        }
+
+        // a:first-child {
+        //     margin-left: 341px;
+
+        //     @media @mobile {
+        //         margin-left: 56px;
+        //         margin: 10px 15px;
+        //     }
+        // }
+    }
+}
