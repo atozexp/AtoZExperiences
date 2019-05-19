@@ -1,6 +1,15 @@
 
 .home {
 
+    .header {
+      width: 100%;
+      display: block;
+
+      .img {
+        margin-bottom: 20px;
+      }
+    }
+
     .content-section {
       margin: 30px 0;
       display: flex;
@@ -18,9 +27,7 @@
         width: 48%;
         padding-left: 1%;
   
-        img {
-          border-radius: 10px;
-        }
+        
       }
     }
   
@@ -42,12 +49,22 @@
     .cta {
       width: 75%;
       margin: 0 auto 30px;
+      display: flex;
+      justify-content: space-between;
 
-      .btn {
-        .button(200px, @button-main, @font-color, center, 1.8rem, 40px, 10px);
-        @media @mobile {
-          width: 100%;
-        }
+      .text-content {
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+      
+        .btn {
+          .button-cta(400px, @button-main, @font-color, center, 1.8rem, 40px, 10px);
+          @media @mobile {
+            width: 100%;
+          }
+
+      }
+ 
       }
   
     }
