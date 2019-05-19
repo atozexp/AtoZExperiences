@@ -39,23 +39,21 @@
       }
     }
   
-    .content-destination {
+    .cta {
       width: 75%;
       margin: 0 auto 30px;
-  
-      img {
-        border-radius: 10px;
+
+      .btn {
+        .button(200px, @button-main, @font-color, center, 1.8rem, 40px, 10px);
+        @media @mobile {
+          width: 100%;
+        }
       }
+  
     }
   
-    .content-pick {
-      padding-top: 30px;
-      display: flex;
-      justify-content: space-between;
-  
-      .destination {
-        width: 30%;
-        margin-bottom: 30px;
-      }
-    }
+    
   }// home
+
+
+  
