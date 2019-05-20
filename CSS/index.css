@@ -176,7 +176,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #cccccc;
+  background: #dddded;
   border-bottom: 2px dotted #676678;
 }
 .nav-container .navigation {
@@ -206,7 +206,7 @@ img {
 .footer {
   width: 100%;
   border-top: 2px dotted #676678;
-  background: #cccccc;
+  background: #dddded;
 }
 .footer p {
   text-align: center;
@@ -221,33 +221,33 @@ img {
 .home .header .img {
   margin-bottom: 20px;
 }
-.home .content-section {
+.home .find-an-experience {
   margin: 30px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.home .content-section .text-content {
+.home .find-an-experience .text-content {
   width: 48%;
   padding-right: 1%;
 }
-.home .content-section .img-content {
+.home .find-an-experience .img-content {
   width: 48%;
   padding-left: 1%;
 }
-.home .inverse-content {
+.home .host-experience {
   padding-bottom: 30px;
 }
-.home .inverse-content .text-content {
+.home .host-experience .text-content {
   padding-left: 1%;
   padding-right: 0;
 }
-.home .inverse-content .img-content {
+.home .host-experience .img-content {
   padding-right: 1%;
   padding-left: 0;
 }
 .home .cta {
-  width: 75%;
+  width: 100%;
   margin: 0 auto 30px;
   display: flex;
   justify-content: space-between;
@@ -255,7 +255,7 @@ img {
 .home .cta .text-content {
   width: 100%;
   margin-bottom: 30px;
-  display: flex;
+  display: column;
 }
 .home .cta .text-content .btn {
   width: 400px;
@@ -265,7 +265,8 @@ img {
   font-size: 1.8rem;
   height: 40px;
   border-radius: 10px;
-  padding-top: 20px;
+  padding-top: 4px;
+  margin-top: 20px;
   cursor: pointer;
 }
 @media `"(max-width: 500px)" {
