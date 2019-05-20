@@ -146,6 +146,7 @@ h5 {
 h1 {
   font-size: 4rem;
   color: #ff6584;
+  margin: 65px;
 }
 h2 {
   font-size: 3.2rem;
@@ -222,7 +223,7 @@ img {
   margin-bottom: 20px;
 }
 .home .find-an-experience {
-  margin: 30px 0;
+  margin: 56px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -236,7 +237,10 @@ img {
   padding-left: 1%;
 }
 .home .host-experience {
-  padding-bottom: 30px;
+  margin-bottom: 55px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 .home .host-experience .text-content {
   padding-left: 1%;
