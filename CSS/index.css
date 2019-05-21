@@ -170,10 +170,11 @@ p {
   font-size: 1.6rem;
   padding-bottom: 10px;
 }
-img {
+.img {
   max-width: 100%;
   height: auto;
   border-radius: 20px;
+  box-shadow: 3px 3px 5px 6px #ccc;
 }
 .container {
   max-width: 800px;
@@ -360,4 +361,7 @@ img {
   padding-top: 4px;
   margin-top: 20px;
   cursor: pointer;
+}
+.home .cta .btn .btn:hover {
+  background-color: #dee794;
 }
