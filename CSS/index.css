@@ -254,12 +254,14 @@ img {
   width: 100%;
   margin: 0 auto 30px;
   display: flex;
-  justify-content: space-between;
 }
 .home .cta .text-content {
   width: 100%;
   margin-bottom: 30px;
-  display: column;
+  padding-left: 203px;
+}
+.home .cta .text-content h2 {
+  margin-left: 105px;
 }
 .home .cta .text-content .btn {
   width: 400px;
