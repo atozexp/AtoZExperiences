@@ -4,8 +4,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: @silver;
-    border-bottom: 2px dotted @dolphin;
+    border-bottom: 3px solid @gunpowder;
+    background: @concrete;
     padding-bottom: 20px;
     position: fixed;
     top: 0;
@@ -18,7 +18,8 @@
     }
 
     .navlogo {
-        width: 85%;
+       // width: 85%;
+       width: 44%;
         padding-left: 15%;
 
         @media @mobile {
@@ -54,21 +55,12 @@
         a {
             text-decoration: none;
             font-size: 2rem;
-            color: @wild-watermelon;
+            color: @nav-link;
             margin: 0px 10px;
 
             @media @mobile {
                 padding-bottom: 30px;
             }
         }
-
-        // a:first-child {
-        //     margin-left: 341px;
-
-        //     @media @mobile {
-        //         margin-left: 56px;
-        //         margin: 10px 15px;
-        //     }
-        // }
     }
 }

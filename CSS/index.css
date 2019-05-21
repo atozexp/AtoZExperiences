@@ -144,9 +144,12 @@ h5 {
   color: #3f3d56;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   color: #ff6584;
   margin: 65px;
+  text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-weight: 700;
 }
 @media (max-width: 500px) {
   h1 {
@@ -189,8 +192,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #dddded;
-  border-bottom: 2px dotted #676678;
+  border-bottom: 3px solid #3f3d56;
+  background: #f2f2f2;
   padding-bottom: 20px;
   position: fixed;
   top: 0;
@@ -202,7 +205,7 @@ img {
   }
 }
 .nav-container .navlogo {
-  width: 85%;
+  width: 44%;
   padding-left: 15%;
 }
 @media (max-width: 500px) {
@@ -236,7 +239,7 @@ img {
 .nav-container .navigation a {
   text-decoration: none;
   font-size: 2rem;
-  color: #ff6584;
+  color: #676678;
   margin: 0px 10px;
 }
 @media (max-width: 500px) {
@@ -262,63 +265,63 @@ img {
 .home .header .img {
   margin-bottom: 20px;
 }
-.home .find-an-experience {
+.home .content-section {
   margin: 56px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 @media (max-width: 500px) {
-  .home .find-an-experience {
+  .home .content-section {
     flex-wrap: wrap;
     flex-direction: column;
   }
 }
-.home .find-an-experience .text-content {
+.home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
 }
 @media (max-width: 500px) {
-  .home .find-an-experience .text-content {
+  .home .content-section .text-content {
     width: 100%;
   }
 }
-.home .find-an-experience .img-content {
+.home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
 }
 @media (max-width: 500px) {
-  .home .find-an-experience .img-content {
+  .home .content-section .img-content {
     width: 100%;
   }
 }
-.home .host-experience {
+.home .inverse-content {
   margin-bottom: 55px;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
 }
 @media (max-width: 500px) {
-  .home .host-experience {
+  .home .inverse-content {
     flex-wrap: wrap;
     flex-direction: column;
   }
 }
-.home .host-experience .text-content {
+.home .inverse-content .text-content {
   padding-left: 1%;
   padding-right: 0;
 }
 @media (max-width: 500px) {
-  .home .host-experience .text-content {
+  .home .inverse-content .text-content {
     width: 100%;
   }
 }
-.home .host-experience .img-content {
+.home .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
 }
 @media (max-width: 500px) {
-  .home .host-experience .img-content {
+  .home .inverse-content .img-content {
     width: 100%;
   }
 }
