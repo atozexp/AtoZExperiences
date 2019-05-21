@@ -228,13 +228,29 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media `"(max-width: 500px)" {
+  .home .find-an-experience {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
 .home .find-an-experience .text-content {
   width: 48%;
   padding-right: 1%;
 }
+@media `"(max-width: 500px)" {
+  .home .find-an-experience .text-content {
+    width: 100%;
+  }
+}
 .home .find-an-experience .img-content {
   width: 48%;
   padding-left: 1%;
+}
+@media `"(max-width: 500px)" {
+  .home .find-an-experience .img-content {
+    width: 100%;
+  }
 }
 .home .host-experience {
   margin-bottom: 55px;
@@ -242,18 +258,38 @@ img {
   flex-direction: row-reverse;
   justify-content: space-between;
 }
+@media `"(max-width: 500px)" {
+  .home .host-experience {
+    flex-direction: column;
+  }
+}
 .home .host-experience .text-content {
   padding-left: 1%;
   padding-right: 0;
+}
+@media `"(max-width: 500px)" {
+  .home .host-experience .text-content {
+    width: 100%;
+  }
 }
 .home .host-experience .img-content {
   padding-right: 1%;
   padding-left: 0;
 }
+@media `"(max-width: 500px)" {
+  .home .host-experience .img-content {
+    width: 100%;
+  }
+}
 .home .cta {
   width: 100%;
   margin: 0 auto 30px;
   display: flex;
+}
+@media `"(max-width: 500px)" {
+  .home .cta {
+    width: 100%;
+  }
 }
 .home .cta .text-content {
   width: 100%;
