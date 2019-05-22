@@ -365,6 +365,7 @@ p {
   margin-top: 20px;
   cursor: pointer;
 }
-.home .cta .btn .btn:hover {
-  background-color: #dee794;
+.home .cta .btn:hover {
+  background: #3f3d56;
+  color: #ff6584;
 }
