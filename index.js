@@ -4,7 +4,7 @@
 
 let navColor = document.querySelectorAll(".nav-link");
 navColor.forEach((i) =>{
-    i.addEventListener("hover", (event) => {
+    i.addEventListener("click", (event) => {
         event.target.style.color = "red";
         setTimeout(()=> {
             event.target.style.color = "";
