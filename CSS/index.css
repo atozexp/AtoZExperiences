@@ -160,6 +160,7 @@ h1 {
 h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
+  text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 }
 h4 {
   font-size: 2.5rem;
@@ -286,6 +287,7 @@ p {
 @media (max-width: 500px) {
   .home .content-section .text-content {
     width: 100%;
+    margin-bottom: 60px;
   }
 }
 .home .content-section .img-content {
