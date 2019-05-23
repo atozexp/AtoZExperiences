@@ -22,12 +22,22 @@
         flex-wrap: wrap;
         flex-direction: column;
       }
+
+      @media @tablet {
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
   
       .text-content {
         width: 48%;
         padding-right: 1%;
 
         @media @mobile {
+          width: 100%;
+          margin-bottom: 60px;
+        }
+
+        @media @tablet {
           width: 100%;
           margin-bottom: 60px;
         }
@@ -38,6 +48,10 @@
         padding-left: 1%; 
 
         @media @mobile {
+          width: 100%;
+        }
+
+        @media @tablet {
           width: 100%;
         }
       }
@@ -53,12 +67,21 @@
         flex-wrap: wrap;
         flex-direction: column;
       }
+
+      @media @tablet{
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
   
       .text-content {
         padding-left: 1%;
         padding-right: 0;
 
         @media @mobile {
+          width: 100%;
+        }
+
+        @media @tablet {
           width: 100%;
         }
       }
@@ -70,8 +93,12 @@
         @media @mobile {
           width: 100%;
         }
+
+        @media @tablet {
+          width: 100%;
+        }
       }
-    } // inverse-content
+    } //inverse-content
   
     .cta {
       width: 100%;
@@ -85,6 +112,10 @@
         @media @mobile{
           margin: 0 auto;
           padding: 0;
+        }
+
+        @media @tablet {
+          margin: 0 auto;
         }
 
         h2 {
