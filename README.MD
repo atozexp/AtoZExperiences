@@ -1,6 +1,5 @@
 # AtoZ Experiences
 
-
 Pitch: Many stay home moms report feeling 'stir crazy' and their social needs are not met. Enter ABC experience (Think AirBNB experiences...but for stay at home moms) . People can host an experience, and earn money leading people on activities they love. It’s an opportunity for anyone to share their hobbies, skills, or expertise. The basic premise is to emulate Airbnb experiences, but instead of targeting tourists traveling to a new area, one targets stay-at-home moms.
  
  For the MVP Create:
@@ -15,8 +14,6 @@ Pitch: Many stay home moms report feeling 'stir crazy' and their social needs ar
  
  Stretch: Allow user to set an availability schedule for each experience, whether that's daily, weekly, or monthly.
  
-
-
  ## **Role Description**
 
 You have learned all about the foundations of the Web over the past eight weeks. Now you will build a static landing page that links to a your group's application.
@@ -42,5 +39,3 @@ For your project this week, you will demonstrate proficiency by working with a g
 - [ ]  For this Marketing site's home page you need to have content and copy that relates to the product that your team is workinfg on.
 - [ ]  Descriptions about the product and about the features it provides would be key.
 - [ ]  For a second page, you could do an about us section that includes images of the members of your team, and links to one another's socials/Github.
-
-Michelle Scott and Ranim Sereg
