@@ -6,7 +6,6 @@
 const navlink = document.querySelectorAll("a");
 navlink.forEach(navigation => {
     navigation.style.color = "#3f3d56";
-
 });
 
 let navColor = document.querySelectorAll(".nav-link");
@@ -17,6 +16,7 @@ navColor.forEach((i) =>{
             event.target.style.color = "";
         }, 1500);
     }, false);
+
 });
 
 // H2 effects
@@ -30,3 +30,5 @@ mainHead.forEach((i) =>{
         }, 500);
     }, false);
 });
+
+

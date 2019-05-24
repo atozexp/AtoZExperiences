@@ -161,6 +161,7 @@ h1 {
   h1 {
     width: 60%;
     text-align: center;
+    margin: 50px auto;
   }
 }
 h2 {
