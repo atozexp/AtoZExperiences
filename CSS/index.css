@@ -185,7 +185,7 @@ p {
 }
 .container {
   max-width: 1000px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   margin-top: 160px;
 }
@@ -196,7 +196,7 @@ p {
 }
 @media (max-width: 800px) {
   .container {
-    width: 100%;
+    width: 90%;
   }
 }
 .nav-container {
